@@ -1,0 +1,18 @@
+.main-header-nav{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.main-header-nav a {
+    text-decoration: none;
+    width: auto;
+    color: black;
+    justify-self: center;
+    align-self: center;
+    transition: 0.5s;
+    padding: 0.5em;
+}
+.main-header-nav:hover a:not(:hover) {
+    transition: 0.5s;
+    opacity: 0.25;
+}
